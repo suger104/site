@@ -203,11 +203,11 @@ border-top: 5px solid rgba(208,160,220,0.7);; border-left: 5px solid transparent
 
 /* blog1 */
 .blog1 {}
-.blog1 h5 {text-align: center; padding: 15%; color:transparent; transition: all 0.3s ease; background: url(../img/blog1_320.jpg); margin-bottom: 5px;}
+.blog1 h5 {text-align: center; padding: 15%; color:transparent; transition: all 0.3s ease; background: url(../img/blog1_320.jpg); background-size: cover; margin-bottom: 5px;}
 .blog1:hover h5 {color:#9E8DBF;}
 /* blog2 */
 .blog2 {margin-top: 15px;}
-.blog2 h5 {text-align: center; padding: 15%;   color:transparent; transition: all 0.3s ease; background: url(../img/blog2_320.jpg); margin-bottom: 5px;}
+.blog2 h5 {text-align: center; padding: 15%;   color:transparent; transition: all 0.3s ease; background: url(../img/blog2_320.jpg); background-size: cover; margin-bottom: 5px;}
 .blog2:hover h5 {color:#9E8DBF;}
 
 /* square */
@@ -343,8 +343,8 @@ border-top: 5px solid rgba(208,160,220,0.7);; border-left: 5px solid transparent
 	.square a {width: 100%; margin: 1% 0;}
 }
 
-/* MediaQuery Ratio */
+/* MediaQuery ratio*/
 @media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
-	.blog1 h5 {text-align: center; padding: 15%; background: url(../img/blog1_640.jpg); background-size: cover;}
-	.blog2 h5 {text-align: center; padding: 15%;  background: url(../img/blog2_640.jpg); background-size: cover;}
+	.blog1 h5 {background: url(../img/blog1_640.jpg); background-size: cover;}
+    .blog2 h5 {background: url(../img/blog2_640.jpg); background-size: cover;}
 }
